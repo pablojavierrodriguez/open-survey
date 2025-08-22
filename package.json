@@ -6,6 +6,10 @@
   "keywords": ["survey", "forms", "analytics", "open-source", "nextjs", "supabase"],
   "author": "Open Survey Team",
   "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
